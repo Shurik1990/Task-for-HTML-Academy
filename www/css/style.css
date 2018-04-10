@@ -32,7 +32,7 @@ body {
 .page-header,
 .page-footer {
     color: #c3c3c3;
-    background-color: #363636;
+    background-color: #000;
 }
 
 .header-top {
@@ -82,7 +82,7 @@ body {
 }
 
 .main-nav a:hover {
-    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .main-nav a:active {
@@ -328,4 +328,153 @@ cite {
 	font-style: normal;
 	vertical-align: middle;
     line-height: 45px;
+}
+
+.page-footer .container {
+	width: 1000px;
+}
+
+.page-footer {
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.footer-top {
+    margin-bottom: 45px;
+}
+
+.footer-logo {
+    float: left;
+    width: 140px;
+    height: 76px;
+	margin-left: 50px;
+}
+
+.footer-logo img {
+    width: 140px;
+    height: 76px;
+}
+
+.footer-middle {
+    margin-bottom: 80px;
+    padding-top: 15px;
+}
+
+.footer-menu {
+    float: left;
+    padding-left: 130px;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+.footer-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-menu li {
+	display: inline;
+	margin-right: 60px;
+}
+
+.footer-menu li:last-child {
+    margin-right: 0;
+}
+
+.footer-menu a {
+    font-size: 16px;
+    color: #cbcbcb;
+    text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.footer-menu a:hover {
+    color: #ffffff;
+}
+
+.footer-menu a:active {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-bottom {
+    padding-top: 50px;
+}
+
+.footer-social {
+    float: left;
+    width: 231px;
+    font-size: 0;
+}
+
+.social-btn {
+    display: inline-block;
+    width: 75px;
+    height: 65px;
+    vertical-align: middle;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+	background-position: center;
+}
+
+.social-btn:hover {
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.social-btn:active {
+    border-color: #ffffff;
+    opacity: 0.1;
+}
+
+.social-btn-in {
+	background-image: url("../img/inst.png");
+	background-repeat: no-repeat;
+}
+
+.social-btn-fb {
+	background-image: url("../img/face.png");
+	background-repeat: no-repeat;
+}
+
+.social-btn-vk {
+	background-image: url("../img/vk.png");
+	background-repeat: no-repeat;
+}
+
+.footer-copyright {
+	float: left;
+    width: 200px;
+    font-size: 14px;
+    color: #999;
+    margin-left: 90px;
+    vertical-align: middle;
+    line-height: 20px;
+}
+
+.footer-developer {
+	float: right;
+    color: #999;
+}
+
+.developer-text {
+	margin-left: 25px;
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+}
+
+.developer-text a {
+    color: #999;
+    text-decoration: none;
+	font-weight: bold;
+}
+
+.developer-text a:hover {
+    color: #ffffff;
+}
+
+.developer-text a:active {
+    color: rgba(255, 255, 255, 0.3);
 }
